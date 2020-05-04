@@ -1,0 +1,36 @@
+body{
+	background: url(https://s.yimg.com/ny/api/res/1.2/12UU2JphAsbxTTDca.7QFQ--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9MTA4MDtoPTcxNg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2019-11/7b5b5330-112b-11ea-a77f-7c019be7ecae);
+	background-repeat: no-repeat;
+	background-size: cover
+}
+li{
+	border:solid red;
+}
+#special{
+	background-color: yellow;
+}
+.completed{
+	text-decoration: line-through;
+}
+h4{
+	background: rgb(0,100,1);
+	border-color: purple
+	border-width:5px;
+	border-style: solid;
+	border: 5px solid rgb(0,1,1);
+}
+*{
+	border:1px solid lightgrey;
+}
+li a {
+	color:red;
+}
+h4 + ul{
+	border:4px solid red;
+}
+a[href="http://google.com"]{
+	background-color: blue
+}
+ul:nth-of-type(3){
+	background-color: purple
+}
